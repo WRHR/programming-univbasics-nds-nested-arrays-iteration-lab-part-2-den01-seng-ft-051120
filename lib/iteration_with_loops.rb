@@ -11,10 +11,10 @@ def find_min_in_nested_arrays(src)
       if daily_low > src[row_i][col_i]
         daily_low = src[row_i][col_i]
       end
-      lows << daily_low
+      
       col_i += 1 
     end
-    
+    lows << daily_low
     row_i += 1 
   end
   
